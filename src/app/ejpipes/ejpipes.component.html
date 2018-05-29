@@ -1,0 +1,18 @@
+<p>
+  Pipes de fechas, Mayusculas y minusculas
+  
+</p>
+<p> {{ ciudad | uppercase}}, {{ hoy | date:'d-M-y' | uppercase}} a las {{ hoy | date:'H:m Z'}}</p> 
+<p> {{ ciudad | lowercase}}, {{ hoy | date:'d-M-y' | lowercase}} a las {{ hoy | date:'H:m Z'}}</p> 
+
+<p> Pipe Decimal <small>Donde el primer dígito representa el mínimo número de enteros, el segundo dígito, el número mínimo de decimales y el tercer dígito el máximo número de decimales. </small> </p>
+
+<p> El resultado es {{ resultado | number:'2.2-2'}}</p> 
+
+<p>Pipe Currency</p>
+
+<p>La cotización actual del dólar es de {{ dolareuro  | euro }}</p> 
+
+<p>Pipe i18nSelect</p>
+
+<p> {{ sexo | i18nSelect: encabezamiento }} {{ nombre }} </p> 

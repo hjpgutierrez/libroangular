@@ -1,0 +1,15 @@
+.style1 {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+.style2 {
+color: red;
+text-align: center;
+}
+
+.advertencia {     color: white;     background-color: orange;     padding: 10px; } 
+
+.aprobado {     color: white;     background-color: green;     padding: 10px; } 
+ 
+.suspenso {     color: white;     background-color: red;     padding: 10px; }
